@@ -1,9 +1,11 @@
 class Languages:
     class English:
         englishGmailUser = "Who creating this gmail (name): "
+        englishLanguageSwitch = "1 or 2 press select one/two: "
     
     class Turkish:
         turkishGmailUser = "Gmail oluşturan kişinin ismi: "
+        turkishLanguageSwitch = "1 veya 2 bu iki rakamdan birini seçiniz: "
 
 class gmail:
     gmailLogo = "@gmail.com"
@@ -43,6 +45,6 @@ Gmail: {gmailFirstPlus}
 
 else:
     if langueSwitch == 1:
-         print("1 or 2 press select one/two")
+         print(Languages.English.englishLanguageSwitch)
     elif langueSwitch == 2:
-         print("1 veya 2 bu iki rakamdan birini seçiniz")
+         print(Languages.Turkish.turkishLanguageSwitch)
